@@ -1,0 +1,128 @@
+body{
+    background-color: #9AB18D;
+    font-family: milk-script, sans-serif;
+    color: #FCF0BE;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width: 768px;
+    height: 1024px;
+    margin: 0 auto;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 491px;
+    background-color: #333232;
+    
+}
+
+.header {
+    height: 60px;
+}
+
+/*Letter & Button*/
+.letter-container {
+    width: 600px;
+    display: Flex;
+    align-items: baseline;
+    margin-bottom: -70px;
+}
+
+.h1 {
+    font-size: 50px;
+}
+
+.letter-container h1 {
+    font-size: 500px;
+    font-weight: 400;
+    margin-left: 31.28px;
+    margin-right: 13.55px;
+    margin-top: -60px;
+    margin-bottom: -40px;
+    z-index: 5;
+}
+
+.letter-container h2 {
+    color: #C46846;
+    font-size: 500px;
+    font-weight: 400;
+    margin-left: 31.28px;
+    margin-right: 13.55px;
+    margin-top: -60px;
+    margin-bottom: -40px;
+    position: relative;
+    right: 355px;
+    z-index: 2;
+}
+
+#button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #C46846;
+    position: relative;
+    z-index: 20;
+}
+
+.sample {
+    font-size: 62px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom:-30px; 
+}
+
+.letter-title {
+    font-size: 40px;
+    font-weight: 400;
+    color: #C46846;
+    text-align: center;
+    margin-bottom:-30px;
+}
+
+.letter-body {   
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.letter {
+    height: 285px;  
+}
+
+.photo-title {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin: auto;
+}
+
+img {
+    border-radius: 50%;
+    width: 91.26
+        
+}
+
+.title {   
+    font-size: 24px;
+    color: #C46846;
+    text-align: center; 
+    margin-left: 15px;
+}
+
+.sources {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+/*Fonts*/
+.milk-script {
+    font-family: milk-script, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
