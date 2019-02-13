@@ -119,6 +119,10 @@ img {
     margin-bottom: 100px;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /*Fonts*/
 .milk-script {
