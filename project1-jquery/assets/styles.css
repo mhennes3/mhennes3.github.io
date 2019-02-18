@@ -121,10 +121,20 @@ body{
 }
 
 .title {   
-    font-size: 24px;
     color: #C46846;
     text-align: center; 
     margin-left: 15px;
+    
+}
+
+.title h3 {
+    font-size: 24px;
+    margin-top: 38px;
+    margin-bottom: -20px;
+}
+
+.title h4 {
+    font-size: 22px;
 }
 
 .sources {
