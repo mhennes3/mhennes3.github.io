@@ -2,21 +2,22 @@ body{
     background-color: #9AB18D;
     font-family: milk-script, sans-serif;
     color: #FCF0BE;
-    margin:0;
+    margin: 60px 0px;
     padding:0;
 }
 
 .container {
-    width: 768px;
-    height: 1024px;
+    width: 700px;
+    height: 1240px;
     margin: 0 auto;
+    background-color: #333232;
+    border-radius: 3%;
 }
 
 .box {
     margin-left: auto;
     margin-right: auto;
     width: 600px;
-    background-color: #333232;
     
 }
 
