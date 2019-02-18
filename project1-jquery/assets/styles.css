@@ -46,7 +46,7 @@ body{
 .letter-container h1 {
     font-size: 500px;
     font-weight: 400;
-    margin-left: 90px;
+    margin-left: 110px;
     margin-right: 13.55px;
     margin-top: -60px;
     margin-bottom: -40px;
@@ -81,7 +81,7 @@ body{
     position: absolute;
     z-index: 20;
     top: 38px;
-    left: 99px
+    left: 119px
 }
 
 .sample {
