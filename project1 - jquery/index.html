@@ -5,6 +5,8 @@
     <title> Matthew's Letterform</title>
     <link rel="stylesheet" href="https://use.typekit.net/mhy0mkf.css">
     <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/jquery.cycle2.min.js"></script>
 </head>
     
 <body>
@@ -12,9 +14,17 @@
         <div class="box">
             <div class="header"></div>
             <div class="letter-container">
+                <div class="S">
                 <h1>S</h1>
                 <h2>S</h2>
+                </div> 
                 <div id="button"></div>
+                <div class="cycle-slideshow analysis" data-cycle-timeout="0" data-cycle-next="#button">  </div>
+                
+                <img src="assets/empty-analysis.png" width="312" height="450" alt="an empty .png place holder file" class="cycle-slide" />
+                
+                <img src="assets/letter-analysis.svg" width="311.5" height="450" alt="typographic analysis of the Milk Script S" class="cycle-slide" />
+                
             </div>
             <div class="sample">
             B E F G K Q W Z

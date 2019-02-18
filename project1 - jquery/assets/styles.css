@@ -15,7 +15,7 @@ body{
 .box {
     margin-left: auto;
     margin-right: auto;
-    width: 491px;
+    width: 600px;
     background-color: #333232;
     
 }
@@ -26,7 +26,7 @@ body{
 
 /*Letter & Button*/
 .letter-container {
-    width: 600px;
+    width: 800px;
     display: Flex;
     align-items: baseline;
     margin-bottom: -70px;
@@ -34,6 +34,11 @@ body{
 
 .h1 {
     font-size: 50px;
+}
+
+.S {
+    display: flex;
+    width: 400px;
 }
 
 .letter-container h1 {
@@ -66,6 +71,14 @@ body{
     background-color: #C46846;
     position: relative;
     z-index: 20;
+    margin-left: -375;
+}
+
+.analysis {
+    position: absolute;
+    z-index: 20;
+/*    top:*/
+/*    left:*/
 }
 
 .sample {
