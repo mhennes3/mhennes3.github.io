@@ -80,8 +80,8 @@ body{
 .analysis {
     position: absolute;
     z-index: 20;
-/*    top:*/
-/*    left:*/
+    top: 38px;
+    left: 99px
 }
 
 .sample {
@@ -114,8 +114,7 @@ body{
     margin: 0 auto;
     justify-content: center;
 }
-
-img {
+.photo img {
     border-radius: 50%;
     width: 91.26
         
