@@ -79,7 +79,7 @@ body{
 
 .analysis {
     position: absolute;
-    z-index: 50;
+    z-index: 20;
     top: 38px;
     left: 119px
 }
@@ -96,15 +96,17 @@ body{
     font-weight: 400;
     color: #C46846;
     text-align: center;
+    width:600px;
     margin-bottom:-30px;
+    
 }
 
 .letter-body {   
-    font-size: 18.5px;
+    font-size: 18px;
     font-weight: lighter;
     text-align: center;
-    width: 640px;
-    margin-left: -25px;
+    width: 620px;
+    margin-left: -12px;
 }
 
 .letter {
