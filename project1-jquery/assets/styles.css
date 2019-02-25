@@ -96,6 +96,8 @@ body{
 .overflow {
     overflow-x: scroll;
     width: 500px; 
+    position: relative;
+    z-index: 100;
 }
 
 .letter-title {
