@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title> Matthew's Letterform</title>
+    <link rel="stylesheet" href="https://use.typekit.net/mhy0mkf.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/jquery.cycle2.min.js"></script>
+</head>
+    
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="header"></div>
+            <div class="letter-container">
+                <div class="S">
+                <h1>S</h1>
+                <h2>S</h2>
+                </div> 
+                <div id="button"></div>
+                <div class="cycle-slideshow analysis" data-cycle-timeout="0" data-cycle-next="#button">  
+                
+                <img src="assets/empty-analysis.png" width="312" height="450" alt="an empty .png place holder file" class="cycle-slide" />
+                
+                <img src="assets/letter-analysis.svg" width="311.5" height="450" alt="typographic analysis of the Milk Script S" class="cycle-slide" />
+                    
+                </div>
+                
+            </div>
+            <div class="sample overflow">
+                BEFGKQWZ2578
+            </div>
+            <div class="letter">
+                <div class="letter-title">
+                <h3>Milk Script</h3>
+                </div> 
+                <div class="letter-body">
+                <p><a href="https://www.sudtipos.com/font/milk-script" style="color: #FDF7E2">Milk Script</a> was discovered by Alfredo Graziani and Alejandro Paul in a 1923 Speedball lettering manual. The typeface is defined by dramatic majuscules and flowing minuscules. It was originally developed for hand-lettered signage, which was characteristic of 1920s and 1930s America.  Its digital form now features amongst other typefaces of <a href="https://fonts.adobe.com/foundries/sudtipos" style="color: #FDF7E2">Sudtipos</a>- a collective Argentinian type foundry- which produces fonts for branding, packaging, and editorial.</p>
+                </div>
+            </div>
+            <div class="photo-title flexy box">
+                <div class="photo">
+                <img src="assets/MH.jpg" height="150" width="150">
+                </div>
+                <div class="title">
+                <h3>Matthew Hennessey</h3>
+                <h4>Senior Psychology</h4>
+                </div>
+            </div>
+            <div class="sources">
+                <p>Adobe Fonts, https://fonts.adobe.com/foundries/sudtipos</p>
+                
+                <p>Sudtipos, https://www.sudtipos.com/font/milk-script</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+    
+</html>
