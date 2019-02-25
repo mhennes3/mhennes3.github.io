@@ -78,6 +78,10 @@ body{
     right: 250px;
 }
 
+#button:hover {
+    background-color: #FCF0BE;
+}
+
 .analysis {
     position: absolute;
     z-index: 20;
