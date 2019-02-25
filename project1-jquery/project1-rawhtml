@@ -3,10 +3,6 @@
     
 <head>
     <title> Matthew's Letterform</title>
-    <link rel="stylesheet" href="https://use.typekit.net/mhy0mkf.css">
-    <link rel="stylesheet" href="assets/styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="assets/jquery.cycle2.min.js"></script>
 </head>
     
 <body>
