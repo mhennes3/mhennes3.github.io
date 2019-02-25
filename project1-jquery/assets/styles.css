@@ -12,6 +12,7 @@ body{
     margin: 0 auto;
     background-color: #333232;
     border-radius: 2.75%;
+    border-style: solid;
 }
 
 .box {
