@@ -3,3 +3,11 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+.h1 {
+    font-family: clarendon-text-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    color: #D1E580;
+}
