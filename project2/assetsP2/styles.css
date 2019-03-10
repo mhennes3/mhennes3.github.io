@@ -4,10 +4,32 @@ body {
     font-style: normal;
 }
 
-.h1 {
+.container {
+    width: 1024px;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.intro h1 {
     font-family: clarendon-text-pro, serif;
     font-weight: 400;
     font-style: normal;
     font-size: 48px;
     color: #D1E580;
+}
+
+.intro p {
+    font-size: 20.8px;
+}
+
+.button {
+    background-color: #FFFFFF;
+    border: 2px solid #707070;      
+    border-radius: 8px;
+    text-align: center;
+    font-size: 19.5px;
+    color: #707070;
+    width: 221px;
+    height: 62.4px;
 }
