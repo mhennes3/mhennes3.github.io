@@ -11,16 +11,22 @@ body {
     padding-right: 60px;
 }
 
+
 .intro h1 {
     font-family: clarendon-text-pro, serif;
     font-weight: 400;
     font-style: normal;
     font-size: 48px;
     color: #D1E580;
+    text-align: center;
+    margin-bottom: -5px;
 }
 
 .intro p {
     font-size: 20.8px;
+    color: #707070;
+    text-align: center;
+    padding-bottom: 15px;  
 }
 
 .button {
@@ -32,4 +38,28 @@ body {
     color: #707070;
     width: 221px;
     height: 62.4px;
+}
+
+.room_1 img {
+    height: 222.3px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.room_2 img {
+    height: 222.3px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.room_3 img {
+    height: 222.3px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.room_4 img {
+    height: 222.3px;
+    margin-top: 15px;
+    padding-bottom: 75px;
 }
