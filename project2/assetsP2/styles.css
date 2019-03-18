@@ -29,6 +29,7 @@ body {
     padding-bottom: 15px;  
 }
 
+/*
 .button {
     background-color: #FFFFFF;
     border: 2px solid #707070;      
@@ -39,27 +40,56 @@ body {
     width: 221px;
     height: 62.4px;
 }
+*/
 
-.room_1 img {
+a {
+    text-decoration: none;
+}
+
+.new-button {
+    font-weight: 400;
+    font-size: 19.5px;
+    text-align: center;
+    padding: 10px 20px;
+    width: 170px;
+    height: 25px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom-width: 2.5px;
+    border-bottom-style: solid;
+    border-radius: 5px;
+}
+
+.new-button:hover {
+    cursor: pointer;
+}
+
+.blue-button {
+    background-color: whitesmoke;
+    color:#707070;
+}
+
+.blue-button:hover {
+    color: whitesmoke;
+    background-color: #707070;
+    border-bottom-color: whitesmoke;
+}
+
+.aqua-button {
+    background-color: #D1E580;
+    color:whitesmoke;
+    border-bottom-color: whitesmoke;
+}
+
+.aqua-button:hover {
+    color:#D1E580;
+    background-color: whitesmoke;
+    border-bottom-color: #D1E580;   
+}
+
+.room img {
     height: 222.3px;
     margin-top: 15px;
     margin-bottom: 25px;
-}
-
-.room_2 img {
-    height: 222.3px;
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
-
-.room_3 img {
-    height: 222.3px;
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
-
-.room_4 img {
-    height: 222.3px;
-    margin-top: 15px;
-    padding-bottom: 75px;
+    display: block;
 }
