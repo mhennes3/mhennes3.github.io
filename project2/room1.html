@@ -11,8 +11,7 @@
         width: 768px;
         height: 1024px;
         background-color: #FEFFEF;
-        border: 1.5px solid;
-        border-color:#CBD08A;
+        border: 1.5px solid #CBD08A;
         border-radius: 5px;
     }
     
@@ -56,12 +55,27 @@
             <h1>Bedroom</h1>
         </div>
         
-    <div class="body flexy-box">    
+    <div class="body">    
         <img src="assetsP2/roomplaceholder.jpg" class="center">
+        <div id="button1" class="round-button"></div>
+        <div id="button2" class="round-button"></div>
+        <div id="button3" class="round-button"></div>
+        
     </div>
         
         <div class="back-to-home">
             <a href="index.html" class="new-button yellow-button" role="button">Back to Home</a>    
         </div>
+
+<!--Modal Content-->
+        <div class="fadeout"></div>
+        <div class="modal-content" id="artwork-modal">
+            <span class="close" id="artwork-close">&times;</span>
+            <h1>Artwork</h1>
+            <p>Item Instructions</p>
+        </div>
+
 </body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/popup.js"></script>
 </html>
