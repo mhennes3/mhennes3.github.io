@@ -43,6 +43,12 @@
     .green-button {
         margin-left: 30px;
     }
+    .modal-content {
+        border-color: #9BBC87;
+    }
+    .modal-content h1{
+        color: #9BBC87;
+    }
 
 </style>
     
@@ -63,8 +69,31 @@
         <div id="button6" class="round-button"></div>
     </div>
         
-        <div class="back-to-home">
-            <a href="index.html" class="new-button green-button" role="button">Back to Home</a>    
+    <div class="fadeout"></div>
+        <div class="modal-content" id="cabinets-modal">
+            <span class="close" id="cabinets-close">&times;</span>
+            <h1>Cabinets</h1>
+            <p>Item Instructions</p>
         </div>
+        
+        <div class="modal-content" id="counters-modal">
+            <span class="close" id="counters-close">&times;</span>
+            <h1>Counters</h1>
+            <p>Item Instructions</p>
+        </div>
+        
+        <div class="modal-content" id="plants-modal">
+            <span class="close" id="plants-close">&times;</span>
+            <h1>Plants</h1>
+            <p>Item Instructions</p>
+        </div>
+
+        
+        <div class="back-to-home">
+            <a href="index.html" class="new-button green-button" role="button">Back to Home</a>   
+        </div>
+    </div>
 </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/popup.js"></script>
 </html>

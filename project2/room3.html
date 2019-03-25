@@ -43,6 +43,12 @@
     .blue-button {
         margin-left: 30px;
     }
+    .modal-content {
+        border-color: #86BCBF;
+    }
+    .modal-content h1{
+        color: #86BCBF;
+    }
 
 </style>
     
@@ -63,8 +69,30 @@
         <div id="button9" class="round-button"></div>
     </div>
         
+    <div class="fadeout"></div>
+        <div class="modal-content" id="bedding-modal">
+            <span class="close" id="bedding-close">&times;</span>
+            <h1>Bedding</h1>
+            <p>Item Instructions</p>
+        </div>
+        
+        <div class="modal-content" id="windows-modal">
+            <span class="close" id="windows-close">&times;</span>
+            <h1>Windows</h1>
+            <p>Item Instructions</p>
+        </div>
+        
+        <div class="modal-content" id="rug-modal">
+            <span class="close" id="rug-close">&times;</span>
+            <h1>Rugs</h1>
+            <p>Item Instructions</p>
+        </div>
+        
         <div class="back-to-home">
             <a href="index.html" class="new-button blue-button" role="button">Back to Home</a>    
         </div>
+    </div>
 </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/popup.js"></script>
 </html>
