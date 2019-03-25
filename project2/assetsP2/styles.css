@@ -6,17 +6,15 @@ body {
 }
 
 .container {
-    width: 1024px;
+    width: 786px;
     padding-top: 50px;
-    padding-left: 70px;
-    padding-right: 70px;
 }
 
 .intro h1 {
     font-family: clarendon-text-pro, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 48px;
+    font-size: 40px;
     text-align: center;
     color: #D1E580;
     margin-bottom: -5px;
@@ -30,17 +28,18 @@ body {
 .intro-instructions p {
     font-size: 26px;
     color: #707070;
-    padding-left: 95px;
+    padding-left: 42px;
     padding-right:
     padding-bottom: 15px;
-    width: 500px;
+    width: 700px;
 }
 
 .intro-instructions img {
     width: 123px;
     height: 128px;
     margin-top: 30px;
-    margin-left: 215px;
+    margin-left: 75px;
+    margin-right: 42px
 }
 
 /*
@@ -91,7 +90,7 @@ a {
 .green-button {
     color:#9BBC87;
     border-color: #9BBC87;
-    margin-left: 124px;
+    margin-left: px;
 }
 
 .green-button:hover {
@@ -114,8 +113,8 @@ a {
 .room1 {
     display: flex;
     margin: auto;
-    padding-left: 95px;
-    padding-right: 94px;
+    padding-left: 42px;
+    padding-right: 42px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 24px;
@@ -138,8 +137,8 @@ a {
 .room2 {
     display: flex;
     margin: auto;
-    padding-left: 95px;
-    padding-right: 94px;
+    padding-left: 42px;
+    padding-right: 42px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 24px;
@@ -153,6 +152,7 @@ a {
 .room2-descrip p {
     font-weight: 300;
     font-size: 23.5px;
+    width: 210px;
 }
 
 .room2 img {
@@ -162,8 +162,8 @@ a {
 .room3 {
     display: flex;
     margin: auto;
-    padding-left: 95px;
-    padding-right: 94px;
+    padding-left: 42px;
+    padding-right: 42px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 24px;
@@ -199,47 +199,47 @@ a {
 
 #button1 {
     top: 300px;
-    left: 550px;
+    left: 500px;
 }
 
 #button2 {
     top: 387px;
-    left: 340px;
+    left: 272px;
 }
 
 #button3 {
     top: 570px;
-    left: 435px;
+    left: 365px;
 }
 
 #button4 {
     top: 353px;
-    left: 295px;
+    left: 413px;
 }
 
 #button5 {
     top: 600px;
-    left: 420px;
+    left: 340px;
 }
 
 #button6 {
     top: 540px;
-    left: 205px;
+    left: 132px;
 }
 
 #button7 {
     top: 520px;
-    left: 320px;
+    left: 255px;
 }
 
 #button8 {
     top: 417px;
-    left: 485px;
+    left: 455px;
 }
 
 #button9 {
-    top: 600px;
-    left: 475px;
+    top: 610px;
+    left: 405px;
 }
 
 .fadeout{
