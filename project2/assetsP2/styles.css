@@ -10,6 +10,7 @@ body {
     width: 786px;
     height: 1024px;
     padding-top: 50px;
+    margin: auto;
     background-color: white;
 }
 
@@ -44,19 +45,6 @@ body {
     margin-left: 75px;
     margin-right: 42px
 }
-
-/*
-.button {
-    background-color: #FFFFFF;
-    border: 2px solid #707070;      
-    border-radius: 8px;
-    text-align: center;
-    font-size: 19.5px;
-    color: #707070;
-    width: 221px;
-    height: 62.4px;
-}
-*/
 
 a {
     text-decoration: none;
@@ -135,6 +123,7 @@ a {
 
 .room1 img {
     height: 296px;
+    position: relative;
 }
 
 .room2 {
@@ -201,43 +190,43 @@ a {
 }
 
 #button1 {
-    top: 300px;
-    left: 500px;
+    top: 290px;
+    left: 490px;
 }
 
 #button2 {
-    top: 387px;
-    left: 272px;
+    top: 380px;
+    left: 265px;
 }
 
 #button3 {
-    top: 570px;
-    left: 365px;
+    top: 560px;
+    left: 355px;
 }
 
 #button4 {
-    top: 353px;
-    left: 413px;
+    top: 343px;
+    left: 404px;
 }
 
 #button5 {
     top: 600px;
-    left: 340px;
+    left: 335px;
 }
 
 #button6 {
-    top: 540px;
-    left: 132px;
+    top: 530px;
+    left: 122px;
 }
 
 #button7 {
-    top: 520px;
-    left: 255px;
+    top: 515px;
+    left: 245px;
 }
 
 #button8 {
-    top: 417px;
-    left: 455px;
+    top: 407px;
+    left: 448px;
 }
 
 #button9 {
