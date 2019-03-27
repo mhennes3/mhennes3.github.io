@@ -190,17 +190,17 @@ a {
 }
 
 #button1 {
-    top: 290px;
-    left: 490px;
+    top: 282px;
+    left: 486px;
 }
 
 #button2 {
-    top: 380px;
-    left: 265px;
+    top: 360px;
+    left: 270px;
 }
 
 #button3 {
-    top: 560px;
+    top: 522px;
     left: 355px;
 }
 
@@ -254,7 +254,7 @@ a {
     width: 350px;
     height: 500px;
     position: absolute;
-    top: 170px;
+    top: 140px;
     left: 200px;
     visibility: hidden;
     z-index: 200;
@@ -270,12 +270,16 @@ a {
 
 .modal-content h1 {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
     margin-top: 180px;
+    margin-bottom: 0px;
 }
 
 .modal-content p {
    text-align: center;
+    width: 240px;
+    position: absolute;
+    left: 76px;
 }
 
 .visible {
