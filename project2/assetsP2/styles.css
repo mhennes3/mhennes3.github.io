@@ -12,6 +12,7 @@ body {
     padding-top: 50px;
     margin: auto;
     background-color: white;
+    border-radius: 1.6%;
 }
 
 hr {
@@ -299,4 +300,11 @@ a {
 .close: focus {
     color: #E6E6E6;
     text-decoration: none;
+}
+
+.citation p {
+    color: lightgray;
+    font-size: 14px;
+    font-weight: 300px;
+    padding-left: 78px;
 }
