@@ -9,7 +9,7 @@ body {
 .container {
     width: 786px;
     height: 1024px;
-    padding-top: 50px;
+    padding-top: 30px;
     margin: auto;
     background-color: white;
     border-radius: 1.6%;
@@ -26,6 +26,7 @@ hr {
     font-size: 36px;
     text-align: center;
     color: #9BBC87;
+    margin-top: 16px;
     margin-bottom: 12px;
 }
 
@@ -122,6 +123,7 @@ a {
 .room1-descrip p{
     font-weight: 300;
     font-size: 18px;
+    padding-top: 3px;
 }
 
 .room1 img {
@@ -148,6 +150,7 @@ a {
     font-size: 18px;
     width: 260px;
     text-align: right;
+    padding-top: 4px;
 }
 
 .room2 img {
@@ -171,6 +174,7 @@ a {
 .room3-descrip p{
     font-weight: 300;
     font-size: 18px;
+    padding-top: 4px;
 }
 
 .room3 img {
@@ -192,48 +196,48 @@ a {
 }
 
 #button1 {
-    top: 282px;
-    left: 486px;
+    top: 256px;
+    left: 480px;
 }
 
 #button2 {
-    top: 360px;
+    top: 340px;
     left: 270px;
 }
 
 #button3 {
-    top: 522px;
+    top: 502px;
     left: 355px;
 }
 
 #button4 {
-    top: 328px;
+    top: 308px;
     left: 401px;
 }
 
 #button5 {
-    top: 565px;
+    top: 545px;
     left: 335px;
 }
 
 #button6 {
-    top: 498px;
-    left: 145px;
+    top: 476px;
+    left: 147px;
 }
 
 #button7 {
-    top: 488px;
+    top: 465px;
     left: 248px;
 }
 
 #button8 {
-    top: 386px;
+    top: 365px;
     left: 440px;
 }
 
 #button9 {
-    top: 560px;
-    left: 400px;
+    top: 534px;
+    left: 390px;
 }
 
 .fadeout{
