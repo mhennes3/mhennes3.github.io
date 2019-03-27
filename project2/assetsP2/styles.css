@@ -8,8 +8,8 @@ body {
 
 .container {
     width: 786px;
-    height: 1024px;
-    padding-top: 30px;
+    height: 1040px;
+    padding-top: 34px;
     margin: auto;
     background-color: white;
     border-radius: 1.6%;
@@ -196,48 +196,48 @@ a {
 }
 
 #button1 {
-    top: 256px;
+    top: 326px;
     left: 480px;
 }
 
 #button2 {
-    top: 340px;
+    top: 406px;
     left: 270px;
 }
 
 #button3 {
-    top: 502px;
-    left: 355px;
+    top: 570px;
+    left: 358px;
 }
 
 #button4 {
-    top: 308px;
+    top: 376px;
     left: 401px;
 }
 
 #button5 {
-    top: 545px;
+    top: 615px;
     left: 335px;
 }
 
 #button6 {
-    top: 476px;
+    top: 542px;
     left: 147px;
 }
 
 #button7 {
-    top: 465px;
-    left: 248px;
+    top: 534px;
+    left: 249px;
 }
 
 #button8 {
-    top: 365px;
+    top: 433px;
     left: 440px;
 }
 
 #button9 {
-    top: 534px;
-    left: 390px;
+    top: 600px;
+    left: 380px;
 }
 
 .fadeout{
@@ -310,5 +310,6 @@ a {
     color: lightgray;
     font-size: 14px;
     font-weight: 300px;
+    margin-top: 18px;
     padding-left: 78px;
 }
