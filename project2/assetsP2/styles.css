@@ -146,6 +146,7 @@ a {
     font-weight: 300;
     font-size: 18px;
     width: 260px;
+    text-align: right;
 }
 
 .room2 img {
@@ -288,7 +289,7 @@ a {
 
 .close {
     color: #707070;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 300px;
     float: right;
     cursor: pointer;
