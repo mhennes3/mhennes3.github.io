@@ -14,36 +14,38 @@ body {
     background-color: white;
 }
 
+hr {
+    width: 628px; 
+}
+
 .intro h1 {
     font-family: clarendon-text-pro, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    font-size: 36px;
     text-align: center;
-    color: #D1E580;
-    margin-bottom: -5px;
+    color: #9BBC87;
+    margin-bottom: 12px;
 }
 
 .intro-instructions {
     display: flex;
-    margin-bottom: 25px;
+    margin-top: -10px;
+    margin-bottom: 10px;
 }
 
 .intro-instructions p {
-    font-size: 26px;
+    font-size: 20px;
     color: #707070;
-    padding-left: 42px;
-    padding-right:
-    padding-bottom: 15px;
-    width: 700px;
+    padding-left: 78px;
+    width: 400px;
 }
 
 .intro-instructions img {
-    width: 123px;
-    height: 128px;
-    margin-top: 30px;
-    margin-left: 75px;
-    margin-right: 42px
+    width: 126px;
+    height: 126px;
+    margin-top: 10px;
+    margin-left: 122px;
 }
 
 a {
@@ -81,7 +83,7 @@ a {
 .green-button {
     color:#9BBC87;
     border-color: #9BBC87;
-    margin-left: px;
+    margin-left: 46px;
 }
 
 .green-button:hover {
@@ -104,8 +106,8 @@ a {
 .room1 {
     display: flex;
     margin: auto;
-    padding-left: 42px;
-    padding-right: 42px;
+    padding-left: 78px;
+    padding-right: 78px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 24px;
@@ -113,24 +115,23 @@ a {
 }
 
 .room1-descrip {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .room1-descrip p{
     font-weight: 300;
-    font-size: 23.5px;
+    font-size: 18px;
 }
 
 .room1 img {
-    height: 296px;
-    position: relative;
+    height: 227px;
 }
 
 .room2 {
     display: flex;
     margin: auto;
-    padding-left: 42px;
-    padding-right: 42px;
+    padding-left: 78px;
+    padding-right: 78px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 24px;
@@ -138,42 +139,41 @@ a {
 }
 
 .room2-descrip {
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 .room2-descrip p {
     font-weight: 300;
-    font-size: 23.5px;
-    width: 210px;
+    font-size: 18px;
+    width: 260px;
 }
 
 .room2 img {
-    height: 296px;
+    height: 227px;
 }
 
 .room3 {
     display: flex;
     margin: auto;
-    padding-left: 42px;
-    padding-right: 42px;
+    padding-left: 78px;
+    padding-right: 78px;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-bottom: 24px;
     background-color: #EDFEFF;
 }
 
 .room3-descrip {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
-.room3-descrip p {
+.room3-descrip p{
     font-weight: 300;
-    font-size: 23.5px;
+    font-size: 18px;
 }
 
 .room3 img {
-    height: 296px;
-
+    height: 227px;
+    position: relative;
 }
 
 .round-button {
@@ -205,33 +205,33 @@ a {
 }
 
 #button4 {
-    top: 343px;
-    left: 404px;
+    top: 328px;
+    left: 401px;
 }
 
 #button5 {
-    top: 600px;
+    top: 565px;
     left: 335px;
 }
 
 #button6 {
-    top: 530px;
-    left: 122px;
+    top: 498px;
+    left: 145px;
 }
 
 #button7 {
-    top: 515px;
-    left: 245px;
+    top: 488px;
+    left: 248px;
 }
 
 #button8 {
-    top: 407px;
-    left: 448px;
+    top: 386px;
+    left: 440px;
 }
 
 #button9 {
-    top: 610px;
-    left: 405px;
+    top: 560px;
+    left: 400px;
 }
 
 .fadeout{
@@ -260,14 +260,22 @@ a {
     z-index: 200;
 }
 
+.modal-content img {
+    width: 110px;
+    margin: auto;
+    position: absolute;
+    left: 141px;
+    top: 120px;
+}
+
 .modal-content h1 {
     text-align: center;
     padding-top: 30px;
+    margin-top: 180px;
 }
 
 .modal-content p {
    text-align: center;
-    padding: 30px;
 }
 
 .visible {
@@ -276,9 +284,9 @@ a {
 
 .close {
     color: #707070;
-    float: right;
     font-size: 24px;
     font-weight: 300px;
+    float: right;
     cursor: pointer;
 }
 
