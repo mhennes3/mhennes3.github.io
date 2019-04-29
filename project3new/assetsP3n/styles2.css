@@ -175,8 +175,10 @@ a:hover {
     padding-top: 3em;
 }
 
-@media only screen and (min-width: 769px){
+
+@media only screen and (min-width: 660px) and (max-width: 959px) {
   
+    
     .content {
         width: 85%;
     }
@@ -272,4 +274,103 @@ a:hover {
         width: 46%;
     }
     
+}
+
+@media only screen and (min-width: 960px) {
+    
+    .content {
+        width: 70%;
+    }  
+    
+    .title {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    } 
+    
+    .name_date {
+        text-align: left;
+        
+    }
+    
+    .name_date h1 {
+        padding-bottom: 0.5em;
+    }
+    
+    .overview {
+        text-align: left;
+        padding-top: .3125em;
+    }
+    
+    .process img {
+        width: 100%;
+        padding-bottom: 0em;
+    }
+    
+    .Images {
+        display: flex;
+        justify-content:space-between;
+        width: 100%;
+    }
+    
+    .image1 {
+        padding-right: 3.6%;
+        border-right: .0935rem solid #C1C1C1;
+        width: 46%;
+    }
+    
+    .image2 {
+        padding-left: 3.6%;
+        width: 46%;
+    }
+    
+    .description {
+        display: flex;
+        justify-content:space-between;
+        padding: 3em 0 3em 0;
+    }
+    
+    .paragraph {
+        text-align: left;
+        border-left: .0935rem solid #C1C1C1;
+        padding-left: 3.8%;
+    }
+    
+    .description h1 {
+        padding-right: 3.8%;
+    }
+
+    .Images2 {
+        display: flex;
+        justify-content:space-between;
+        width: 100%;
+    }
+    
+    .image3 {
+        padding-right: 3.6%;
+        border-right: .0935rem solid #C1C1C1;
+        width: 46%;
+        padding-bottom: 3.6%;
+        border-bottom: .0935rem solid #C1C1C1;
+    }
+    
+    .image4 {
+        padding-left: 3.6%;
+        width: 46%;
+        border-bottom: .0935rem solid #C1C1C1;
+    }
+    
+    .image5 {
+        padding-right: 3.6%;
+        padding-top: 3.6%;
+        border-right: .0935rem solid #C1C1C1;
+        width: 46%;
+    }
+    
+    .image6 {
+        padding-left: 3.6%;
+        padding-top: 3.6%;
+        width: 46%;
+    }
+
 }
