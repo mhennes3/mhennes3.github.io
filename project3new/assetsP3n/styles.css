@@ -26,6 +26,10 @@ body {
     margin: 0 auto;
 }
 
+.rectangle {
+    display: none;
+}
+
 .title {
     width: 95%;
     padding: 2.25em 0 3em 0;
@@ -166,6 +170,19 @@ a:hover {
         width: 68%;
     }
     
+/*
+    .site-header {
+        display: none;
+    }
+*/
+    
+/*
+    .vertical-toggle {
+        position: fixed;
+        top:
+    }
+*/
+    
     .title {
         width: 75%;
         padding: 3.375em 0 3.375em 0;
@@ -173,6 +190,18 @@ a:hover {
     
     .project-container {
         width: 100%;
+    }
+    
+    .project1 {
+        display: none;
+    }
+    
+    .rectangle {
+        display: block;
+        height:16em;
+        width:100%;
+        background-color: antiquewhite;
+        margin-bottom: 3em;
     }
     
     .projects_flex {

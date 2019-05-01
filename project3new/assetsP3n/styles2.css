@@ -126,6 +126,18 @@ a:hover {
 
 /*End Hamburger*/
 
+body {
+   font-family: whitman, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
 .content {
     width: 83%;
     margin: 0 auto;
@@ -164,7 +176,7 @@ a:hover {
     width: 100%;
     text-align: center;
     padding: 0.625em 0 3em 0;
-    border-bottom: .0935rem solid #C1C1C1;
+    border-bottom: 2px solid #C1C1C1;
 }
 
 .description h1 {
@@ -191,6 +203,8 @@ a:hover {
     
     .name_date {
         text-align: left;
+        width: 46%;
+        margin: 0;
         
     }
     
@@ -201,6 +215,7 @@ a:hover {
     .overview {
         text-align: left;
         padding-top: .3125em;
+        width: 46%;
     }
     
     .process img {
@@ -215,26 +230,35 @@ a:hover {
     }
     
     .image1 {
-        padding-right: 3.6%;
-        border-right: .0935rem solid #C1C1C1;
         width: 46%;
     }
     
+    .vertical-rule {
+        width: 2px;
+        background-color: #C1C1C1;
+    }
+    
+    .horizontal-rule {
+        height: 2px;
+        width: 100%;
+        background-color: #C1C1C1;
+    }
+    
     .image2 {
-        padding-left: 3.6%;
         width: 46%;
     }
     
     .description {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         padding: 3em 0 3em 0;
     }
     
     .paragraph {
         text-align: left;
-        border-left: .0935rem solid #C1C1C1;
+        border-left: 2px solid #C1C1C1;
         padding-left: 3.8%;
+        height: 100%;
     }
     
     .description h1 {
@@ -248,30 +272,23 @@ a:hover {
     }
     
     .image3 {
-        padding-right: 3.6%;
-        border-right: .0935rem solid #C1C1C1;
         width: 46%;
-        padding-bottom: 3.6%;
-        border-bottom: .0935rem solid #C1C1C1;
+        padding-bottom: 3.5%;
     }
     
     .image4 {
-        padding-left: 3.6%;
         width: 46%;
-        border-bottom: .0935rem solid #C1C1C1;
+        padding-bottom: 3.5%;
     }
     
     .image5 {
-        padding-right: 3.6%;
-        padding-top: 3.6%;
-        border-right: .0935rem solid #C1C1C1;
         width: 46%;
+        padding-top: 3.6%;
     }
     
     .image6 {
-        padding-left: 3.6%;
-        padding-top: 3.6%;
         width: 46%;
+        padding-top: 3.6%
     }
     
 }
@@ -279,8 +296,8 @@ a:hover {
 @media only screen and (min-width: 960px) {
     
     .content {
-        width: 70%;
-    }  
+        width: 68%;
+    }
     
     .title {
         display: flex;
@@ -290,6 +307,8 @@ a:hover {
     
     .name_date {
         text-align: left;
+        width: 46%;
+        margin: 0;
         
     }
     
@@ -300,6 +319,7 @@ a:hover {
     .overview {
         text-align: left;
         padding-top: .3125em;
+        width: 46%;
     }
     
     .process img {
@@ -314,26 +334,35 @@ a:hover {
     }
     
     .image1 {
-        padding-right: 3.6%;
-        border-right: .0935rem solid #C1C1C1;
         width: 46%;
     }
     
+    .vertical-rule {
+        width: 2px;
+        background-color: #C1C1C1;
+    }
+    
+    .horizontal-rule {
+        height: 2px;
+        width: 100%;
+        background-color: #C1C1C1;
+    }
+    
     .image2 {
-        padding-left: 3.6%;
         width: 46%;
     }
     
     .description {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         padding: 3em 0 3em 0;
     }
     
     .paragraph {
         text-align: left;
-        border-left: .0935rem solid #C1C1C1;
+        border-left: 2px solid #C1C1C1;
         padding-left: 3.8%;
+        height: 100%;
     }
     
     .description h1 {
@@ -347,30 +376,25 @@ a:hover {
     }
     
     .image3 {
-        padding-right: 3.6%;
-        border-right: .0935rem solid #C1C1C1;
         width: 46%;
-        padding-bottom: 3.6%;
-        border-bottom: .0935rem solid #C1C1C1;
+        padding-bottom: 3.5%;
     }
     
     .image4 {
-        padding-left: 3.6%;
         width: 46%;
-        border-bottom: .0935rem solid #C1C1C1;
+        padding-bottom: 3.5%;
     }
     
     .image5 {
-        padding-right: 3.6%;
-        padding-top: 3.6%;
-        border-right: .0935rem solid #C1C1C1;
         width: 46%;
+        padding-top: 3.6%;
     }
     
     .image6 {
-        padding-left: 3.6%;
-        padding-top: 3.6%;
         width: 46%;
+        padding-top: 3.6%
     }
-
+    
 }
+    
+    
