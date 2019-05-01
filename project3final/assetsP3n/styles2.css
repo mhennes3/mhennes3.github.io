@@ -136,6 +136,15 @@ h1 {
     font-family: acumin-pro, sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 2.25em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.125em;
 }
 
 .content {
@@ -199,6 +208,7 @@ h1 {
         display: flex;
         justify-content: space-between;
         width: 100%;
+        padding: 4.375em 0 1.75em 0;
     } 
     
     .name_date {
@@ -303,6 +313,7 @@ h1 {
         display: flex;
         justify-content: space-between;
         width: 100%;
+        padding: 4.375em 0 1.75em 0;
     } 
     
     .name_date {
@@ -396,5 +407,3 @@ h1 {
     }
     
 }
-    
-    

@@ -198,10 +198,7 @@ a:hover {
     
     .rectangle {
         display: block;
-        height:16em;
         width:100%;
-        background-color: antiquewhite;
-        margin-bottom: 3em;
     }
     
     .projects_flex {
