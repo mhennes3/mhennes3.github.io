@@ -19,6 +19,7 @@ h1 {
 
 h2 {
     font-size: 1.5em;
+    color: #959595;
 }
 
 .site-header {
@@ -174,9 +175,96 @@ a:hover {
 
 /*End Hamburger*/
 
+.me {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.photo img {
+    width: 100%;
+    margin-left: 0 auto;
+    padding: 2.25em 0 2.25em 0;  
+}
+
+.type {
+    text-align: center;
+}
+
+.type h1 {
+   font-size: 2em;
+    padding-bottom: .5em;
+}
+
+.type h2 {
+    padding-bottom: .5em;
+}
+
+p {
+    font-size: 1.125em;
+    color: #959595;
+    padding-bottom: 2.25em;
+}
+
+.resumecontainer {
+    width: 84%;
+    margin: 0 auto;
+    padding: 3.25em 0 3.25em 0;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.resumecontainer h1 {
+    font-size: 1.5625em;
+    padding-bottom: .25em;
+    text-align: center;
+    font-weight: 600;
+}
+
+hr {
+    color: black;
+}
+
+.contact {
+    text-align: center;
+}
+
+h4 {
+    padding-bottom: .25em;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+h5 {
+    padding-bottom: .25em;
+    font-size: 1em;
+    font-weight: 500;
+    color: #959595;
+}
+
+.Education {
+    padding: .625em 0 1em 0;
+}
+
+.WorkExperience {
+    padding: 0 0 1em 0;
+}
+
+.Activities {
+    padding: 0 0 1em 0;
+}
+.resume p {
+    padding: .75em 0 .25em 0;
+}
+
+ul {
+    padding-left: 1.625em;
+}
+
+
 /*Desktop*/
 
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 660px){
    
     .content {
         width: 68%;
@@ -230,6 +318,42 @@ a:hover {
     .project3 {
         width: 47.5%;
     }
+    
+    .me {
+        width: 86%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .photo {
+        width: 46%;
+    }
+    
+    .vertical-rule {
+        width: 0.125rem;
+        background-color: #E0E0E0;
+        margin: 2.25em 0 2.5em 0;
+    }
+    
+    .type {
+        width: 46%;
+        padding-top: 2em;
+        border-left: 0.125em #E0E0E0;
+        text-align: left;
+    }
+    
+    .type h1 {
+        font-size: 1.5em;
+    }
+    
+    .type h2 {
+        font-size: 1.25em;
+    }
+    
+    p {
+        font-size: 1em;
+    }
+    
     
 }
     
