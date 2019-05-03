@@ -10,6 +10,17 @@ body {
     
 }
 
+h1 {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.25em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
 .site-header {
     width: 100%;
     border-bottom:.0935rem solid black;
@@ -19,6 +30,7 @@ body {
     width: 109px;
     margin: 0 auto;
     display: block;
+    z-index: 2;
 }
 
 .content {

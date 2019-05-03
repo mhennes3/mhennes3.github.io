@@ -11,6 +11,7 @@
     width: 109px;
     margin: 0 auto;
     display: block;
+    z-index: 2;
 }
 
 /*Hamburger*/
@@ -185,14 +186,26 @@ p {
     width: 100%;
     text-align: center;
     padding: 0.625em 0 3em 0;
-    border-bottom: 2px solid #C1C1C1;
+    border-bottom: 0.125rem solid #E0E0E0;
+}
+
+.stageB .description {
+    border-bottom: none;
 }
 
 .description h1 {
         padding-bottom: 1.125em;
 }
 
+.stageA {
+    padding-top: 3em;
+}
+
 .stage2 {
+    padding-top: 3em;
+}
+
+.stageB {
     padding-top: 3em;
 }
 
@@ -201,7 +214,7 @@ p {
   
     
     .content {
-        width: 85%;
+        width: 78%;
     }
     
     .title {
@@ -244,14 +257,14 @@ p {
     }
     
     .vertical-rule {
-        width: 2px;
-        background-color: #C1C1C1;
+        width: 0.125rem;
+        background-color: #E0E0E0;
     }
     
     .horizontal-rule {
-        height: 2px;
+        height: 0.125rem;
         width: 100%;
-        background-color: #C1C1C1;
+        background-color: #E0E0E0;
     }
     
     .image2 {
@@ -266,7 +279,7 @@ p {
     
     .paragraph {
         text-align: left;
-        border-left: 2px solid #C1C1C1;
+        border-left: 0.125rem solid #E0E0E0;
         padding-left: 3.8%;
         height: 100%;
     }
@@ -301,12 +314,25 @@ p {
         padding-top: 3.6%
     }
     
+    .Images3 {
+        width: 100%;
+    }
+    
+    .image7 {
+        width: 100%;
+    }
+    
+    .image8 {
+        width: 100%;
+        padding-top: 3.6%
+    }
+    
 }
 
 @media only screen and (min-width: 960px) {
     
     .content {
-        width: 68%;
+        width: 64%;
     }
     
     .title {
@@ -349,14 +375,14 @@ p {
     }
     
     .vertical-rule {
-        width: 2px;
-        background-color: #C1C1C1;
+        width: 0.125rem;
+        background-color: #E0E0E0;
     }
     
     .horizontal-rule {
-        height: 2px;
+        height: 0.125rem;
         width: 100%;
-        background-color: #C1C1C1;
+        background-color: #E0E0E0;
     }
     
     .image2 {
@@ -371,7 +397,7 @@ p {
     
     .paragraph {
         text-align: left;
-        border-left: 2px solid #C1C1C1;
+        border-left: 0.125rem solid #E0E0E0;
         padding-left: 3.8%;
         height: 100%;
     }
@@ -403,6 +429,19 @@ p {
     
     .image6 {
         width: 46%;
+        padding-top: 3.6%
+    }
+    
+    .Images3 {
+        width: 100%;
+    }
+    
+    .image7 {
+        width: 100%;
+    }
+    
+    .image8 {
+        width: 100%;
         padding-top: 3.6%
     }
     
