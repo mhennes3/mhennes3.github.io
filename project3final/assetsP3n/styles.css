@@ -175,6 +175,8 @@ a:hover {
 
 /*End Hamburger*/
 
+/*aboutme*/
+
 .me {
     width: 80%;
     margin: 0 auto;
@@ -205,6 +207,8 @@ p {
     padding-bottom: 2.25em;
 }
 
+/*resume*/
+
 .resumecontainer {
     width: 84%;
     margin: 0 auto;
@@ -229,6 +233,10 @@ hr {
     text-align: center;
 }
 
+.resume h3 {
+    font-size: 1.25em;
+}
+
 h4 {
     padding-bottom: .25em;
     font-size: 1em;
@@ -237,9 +245,8 @@ h4 {
 
 h5 {
     padding-bottom: .25em;
-    font-size: 1em;
+    font-size: .875em;
     font-weight: 500;
-    color: #959595;
 }
 
 .Education {
@@ -255,10 +262,16 @@ h5 {
 }
 .resume p {
     padding: .75em 0 .25em 0;
+    font-size: 1em;
 }
 
 ul {
     padding-left: 1.625em;
+    font-size: .875em;
+}
+
+.background {
+    width: 100%;
 }
 
 
@@ -354,6 +367,20 @@ ul {
         font-size: 1em;
     }
     
+    .resumecontainer {
+        width: 75%;
+        background-color: white;
+        padding: 3.25em 4em 3.25em 4em;
+        
+    }
     
+    .background {
+        background-color: #E0E0E0;
+    }
+    
+    .contact {
+        display: flex;
+        justify-content: space-between;
+    }
 }
     
